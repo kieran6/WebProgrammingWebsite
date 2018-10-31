@@ -1,0 +1,39 @@
+ body {
+	background-color: #4d0000;
+	background-attachment: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Georgia;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+img.logo {
+	float: left;
+	width: 100px; 
+	height: 100px;
+	 left: 100;
+}
+
+
+h1 {
+
+    background: #e6e6e6;
+    border: #ccc 1px solid;
+	text-align: center;
+	height: 100px;
+	width:100%;
+    padding-top: 0px;
+	overflow: hidden;
+    font-size: 65px;
+	top: 0;
+    left: 0;
+    right: 0;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
