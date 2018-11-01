@@ -103,10 +103,10 @@ p.pv {
 	}
 
 
-	a.footer-button {
-		color:black;
-	  padding-left: 1em;
-	  padding-right: 1em;
+.footer-button {
+	color:black;
+	padding-left: 1em;
+	padding-right: 1em;
 	}
 
 	
