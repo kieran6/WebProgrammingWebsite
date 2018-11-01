@@ -18,6 +18,23 @@ img.logo {
 }
 
 
+img.games {
+
+	width: 350px; 
+	height: 400px;
+	
+}
+
+img.gamepv {
+
+	width: 350px; 
+	height: 400px;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
 h1 {
 
     background: #e6e6e6;
@@ -36,7 +53,7 @@ h1 {
 	margin: 0;
 }
 
-.row {
+.row1 {
 	display :grid; 
   flex-wrap: wrap;
   padding: 0 4px;
@@ -63,6 +80,14 @@ p.info {
 	color: #e6e6e6;
 }
 
+p.pv {
+    text-align: c;
+	color: #e6e6e6;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
 
 .footer {
 	   background-color: #e6e6e6;
@@ -161,13 +186,37 @@ span.price {
   color: grey;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
+.item1 { grid-area: menu; }
+.item2 { grid-area: price; }
+.item3 { grid-area: main; }
+.item4 { grid-area: order; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu  price '
+    'menu  price '
+    'menu  main'
+	'menu  order';
+    text-align: left;
+}
+.grid-container > div {
+  background-color: #4d0000;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
+.button {
+    background-color: #e6e6e6;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
