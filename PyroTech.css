@@ -35,6 +35,7 @@ img.gamepv {
     margin-left: 30px;
 }
 
+
 h1 {
 
     background: #e6e6e6;
@@ -53,29 +54,10 @@ h1 {
 	margin: 0;
 }
 
-.row1 {
-	display :grid; 
-  flex-wrap: wrap;
-  padding: 0 4px;
-	align-items: center;
-justify-content: center
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
-  justify-content: center
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  justify-content: center
-}
 
 
 p.info {
+	  font-size: 35px;
     text-align: center;
 	color: #e6e6e6;
 }
@@ -96,7 +78,7 @@ p.pv {
 	   left:0px;
 	   right:0px;
 	   height:30px;  
-		padding-top: 15px;
+	   padding-top: 15px;
 	   margin-bottom:0px;
 	   display: flex;
 	   justify-content: flex-start;
@@ -110,26 +92,29 @@ p.pv {
 	}
 
 	
+	
+/* for order page */
+	
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%; 
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%; 
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; /* IE10 */
+  -ms-flex: 75%; 
   flex: 75%;
 }
 
@@ -186,6 +171,8 @@ span.price {
   color: grey;
 }
 
+
+/* for gridlayout on products */
 .item1 { grid-area: menu; }
 .item2 { grid-area: price; }
 .item3 { grid-area: main; }
@@ -220,3 +207,30 @@ span.price {
     margin-right: 30px;
     margin-left: 30px;
 }
+
+
+/* for layout on homepage */
+.box {
+  width: 25%;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.image {
+  display: block;
+  height: auto;
+  margin: auto;
+}
+.text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 24px;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
